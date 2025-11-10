@@ -5,7 +5,7 @@ function gerarLink() {
         return;
       }
 
-      const baseUrl = 'https://shopify.pxf.io/c/3199629/1061744/13624?subId1=builder_metodovoe&subId2=mentoria';
+      const baseUrl = 'https://shopify.pxf.io/c/3199629/1061744/13624?subId1=builder_metodovoe&subId2=mentoria&subId3=';
       const encodedEmail = encodeURIComponent(email);
       const fullUrl = baseUrl + encodedEmail;
 
@@ -16,3 +16,4 @@ function gerarLink() {
         <a href="${fullUrl}" target="_blank">${displayUrl}</a>
       `;
     }
+
