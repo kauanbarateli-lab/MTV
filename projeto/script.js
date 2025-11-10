@@ -15,5 +15,4 @@ function gerarLink() {
         <p>Seu link:</p>
         <a href="${fullUrl}" target="_blank">${displayUrl}</a>
       `;
-
     }
